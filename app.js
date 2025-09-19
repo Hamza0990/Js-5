@@ -1,14 +1,16 @@
-let a = 2468;
-console.log(a);
-let b = 2 + 4 + 6 + 8;
-console.log(b);
-console.log(null);
+let num = prompt("4 reqemli edede taxil et")
+let num1 = (Number(num[0]));
+let num2 = (Number(num[1]));
+let num3 = (Number(num[2]));
+let num4 = (Number(num[3]));
+let theNum = num1 + num2 + num3 + num4;
+console.log(theNum)
 // 1- ci tapsiriq bitdi
 
 let fulName = prompt("Write your name and surname");
-console.log("Salam" +  fulName.split(" ")[1] + "!");
-console.log(null);
+console.log("Salam "  +  fulName.split(" ")[1] + "!");
 
+ 
 // 2- ci tapsiriq bitdi 
 
 let age = prompt ("Are you 18 years old ?");
